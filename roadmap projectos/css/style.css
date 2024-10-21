@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+    padding-top: 20px;
+}
+nav div ul a li{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+nav div ul a{
+    text-decoration: none;
+}
+.principal{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.principal h1{
+    background-color: #333;
+    border-radius: 5px;
+    color: white;
+}
+.listaP{
+    width: 50%;
+    height: 300px;
+    background-color: #333;
+    color: #fff;
+}
+.contacto{
+    width: 100%;
+    color: white;
+    background-color: #433636;
+}
+.projectoGrid{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: grid;
+}
+.vista{
+    width: 50%;
+    background-color: #fff;
+    height: 200px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px;
+}
+.vista h1{
+    color: red;
+    background-color: #333;
+}
